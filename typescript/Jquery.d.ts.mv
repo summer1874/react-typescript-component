@@ -1,0 +1,11 @@
+// 声明文件
+// .d.ts 声明文件
+// declare var 声明全局变量
+declare var Jquery: (selector: string) => any
+
+// 可以检查下 tsconfig.json 中的 files、include 和 exclude 配置，确保其包含了 jQuery.d.ts 文件
+// {
+//   "include": ["**/*"]
+// }
+// @types/<package> npm下载 
+//  https://microsoft.github.io/TypeSearch/ 搜索第三方声明文件
