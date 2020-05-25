@@ -34,15 +34,15 @@ class Cat extends Animal {
 		return 'Meow ' + super.run()
 	}
 }
-const snanke = new Animal('🐍')
-const shibaInu = new Dog('🐕')
-const americanShorthair = new Cat('🐱')
-console.log(americanShorthair.name)
-console.log(snanke.run())
-console.log(shibaInu.run(), shibaInu.bark())
-console.log(americanShorthair.run())
+const snake = new Animal('🐍')
+const shebaInu = new Dog('🐕')
+const americanShorthand = new Cat('🐱')
+console.log(americanShorthand.name)
+console.log(snake.run())
+console.log(shebaInu.run(), shebaInu.bark())
+console.log(americanShorthand.run())
 console.log(Animal.category)
-console.log(Animal.isAnimal(shibaInu))
+console.log(Animal.isAnimal(shebaInu))
 
 
 
@@ -73,7 +73,7 @@ interface Alarm {
   alert()
 }
 
-interface LightableAlarm extends Alarm {
+interface LightAbleAlarm extends Alarm {
   lightOn()
   lightOff()
 }

@@ -2,11 +2,13 @@ import React from 'react';
 import logo from './logo.svg';
 import Hello from './components/Hello'
 import LikeButton from './components/LikeButton'
+import Effect from './components/Effect'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Effect/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
